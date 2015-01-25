@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+#wrapper{ width:1100px; min-height:300px; margin:0 auto; }
+
+
+#header{ width:1100px;}
+
+#logo{ width:225px; height:96px; float:left}
+#logo img{width:225; height:96px;}
+
+#login{width:500px; height:40px; float:right; margin-top:44px; }
+#ss input:last-child { width:70px; height:30px; background:#34495e; color:#000; font-family:Verdana, Geneva, sans-serif; font-size:14px; font-weight:bold;}
+#ss input {width:160px; height:30px; }
+#ss:hover input:last-child {color:#0F0; }
+
+#w{width:500px; height:40px; float:right; margin-top:44px; margin-right:-429px; margin-top:-33px;}
+#w input{width:70px; height:30px; background:#34495e; color:#000; font-family:Verdana, Geneva, sans-serif; font-size:14px; font-weight:bold; }
+#w:hover input {color:#0F0;}
+
+#headerr{width:1100px; height:50px;}
+#menu{ width:1100px; height:50px; background:url(../imges/images/5tel%20menue.jpg) repeat-x; margin-bottom:20px;}
+#menu ul{}
+#menu ul li{ float:left;  padding:0px 61px; line-height:50px; margin-right: -6px;  background:url(../imges/images/5t-el-menu.png) no-repeat right; }
+#menu ul li:last-child{ background:0;} 
+#menu ul li a{ text-decoration:none; color:#000; font-size: 24px; font-family:MoolBoran;}
+#menu ul li:hover a , #menu ul li:first-child a {color:#FFF;}
+
+#menu li ul{display:none;}
+#menu li:hover ul{display:block; position:absolute; z-index:9999; width:100px;}
+#menu li li {height:40px; background:url(../imges/images/Untitled-1.png) repeat-x;  width:100px; text-align:center;}
+#menu li li:hover a{ color:#0F0;}
+#menu li li {font-size:13px;}
+#menu li :hover li{ background:url(../imges/images/Untitled-1.png) repeat-x;}
+
+#slinks{ width:208px; height:40px; float:right; margin-top:-61px; margin-bottom:-30px; margin-right: -15px;}
+#slinks img{ margin-left:10px;}
+
+#slider{width:1100px; height:511px; margin-left:-45px; }
+
+#welcome{font-family:Verdana, Geneva, sans-serif; font-size:22px; font-weight:bold; text-align:center; margin-top:20px; color:#0F0;}
+
+#BUY{ width:1100px; min-height:400px; }
+#BUY img{ min-height:300px; min-width:300px; text-align:center; margin-left:420px; }
+#BUY p{ font-size:14px; font-family:Verdana, Geneva, sans-serif; text-align:justify; min-height:300px; min-width:100px; margin-left:420px;}
+#BUY input{ width:100px; height:30px; background:#34495e; font-size:14px; font-family:Verdana, Geneva, sans-serif; font-weight:bold; margin-left:500px; margin-top:-168px;}
+#BUY :hover input{ color:#0F0;}
+
+#map{ width:1100px; height:370px; margin-left:100px;}
+
+.mapmenu{ float:left; padding:50px 20px; margin-left:75pxpx; }
+.mapmenu:last-child{margin-right:0;}
+.mapmenu ul{}
+.mapmenu ul li{ margin-top:7px;}
+.mapmenu ul li a{ text-decoration:none; font-size:15px; font-family:Verdana, Geneva, sans-serif; line-height:30px; color:#000; margin-left:20px;}
+.mapmenu h1{ font-size:24px; font-family:Verdana, Geneva, sans-serif; color:#FFF; }
+.mapmenu h2{ font-size:14px; font-family:Verdana, Geneva, sans-serif; color:#fff; margin-top:30px;}
+.mapmenu a{ text-decoration:none; font-size:14px; font-family:Verdana, Geneva, sans-serif; color:#fff; margin-bottom:10px;}
+.mapmenu ul li:hover a ,  .mapmenu h3 :hover a{ color:#fff;}
+ 
+#back{ width:1100px; height:320px; background:#34495e; margin-top:10px; margin-bottom:20px; margin-left:-20px; }
+
+#ff{ width:1100px; height:85px;}
+#ff h1{ font-size:14px; font-family:Tahoma, Geneva, sans-serif; text-align:center; line-height:20px; margin-right:650px;}
+#ff a{ text-decoration:none;}
+
+#slink{ width:208px; height:40px; float:right; margin-right:95px; margin-top:-86px }
+#slink img{  width:31px; height:31px; margin-left:10px; }
+
+
+.clear{ width:1280px; height:1px; clear:both;}

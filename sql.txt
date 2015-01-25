@@ -1,0 +1,50 @@
+CREATE DATABASE IF NOT EXISTS E_Commerce;
+USE E_Commerce;
+CREATE TABLE Customer (
+CustomerID int(50) NOT NULL AUTO_INCREMENT,
+Customer_Name varchar(50)NOT  NULL,
+Customer_Address varchar(50) NOT NULL,
+Customer_Phone int(20) ,
+Customer_Email varchar(50) NOT NULL,
+Customer_Password varchar(50) NOT NULL,
+ 
+constraint ID primary key (CustomerID)
+);
+ 
+
+CREATE TABLE Admin (
+AdminID int(50) NOT NULL AUTO_INCREMENT,
+Admin_Name varchar(50)NOT  NULL,
+Admin_Email varchar(50)NOT  NULL,
+Admin_Password varchar(50)NOT  NULL,
+
+constraint ID primary key (AdminID)
+);
+ 
+
+CREATE TABLE Product (
+ProductID int(50) NOT NULL AUTO_INCREMENT,
+Product_Name varchar(50)NOT  NULL,
+Product_Description varchar(300),
+Product_Quant_InStock int(20) default 0,
+Product_Prise float NOT NULL,
+Product_Category varchar(20) NOT NULL,
+Product_Sub_Category varchar(20) ,
+Product_Picture varbinary(300) NOT NULL,
+
+constraint ID primary key (ProductID)
+); 
+
+CREATE TABLE Transaciton (
+TransactionID int(50) NOT NULL AUTO_INCREMENT,
+CustomerID int(50)NOT  NULL,
+ProductID int(50)NOT  NULL, 
+Transaction_Quantity int(5) default 0,
+Transaction_Date timestamp DEFAULT NOW() NOT NULL,
+Date_Shipped date NOT NULL,
+Shipping_company varchar(50)NOT  NULL,
+flag int NOT NULL,
+
+constraint ID primary key (TransactionID)
+);
+ 
